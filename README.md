@@ -14,7 +14,7 @@ CoNLL formatted files of the combined dataset is available [here](https://drive.
 ### Installation
 ```pip install -r requirements.txt```
 
-Multilingual coreference resolution model checkpoint is available [here](https://drive.google.com/file/d/19x6WY0fgf5E9phiaV6ORNxnhpg0GnY4w/view?usp=sharing). Place it inside the ```model``` folder.
+Multilingual coreference resolution model checkpoint is available [here](https://drive.google.com/file/d/1ScVz_o4V3G7watezLriCC0vU5gT7FO7q/view?usp=sharing). Place it inside the ```model``` folder.
 
 ### Inference
 
