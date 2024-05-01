@@ -48,7 +48,7 @@ def get_subwords_batches(doc: Doc,
             
         # ritwik added this
         if start >= end: # this means that the sentence on which start is standing is so long that it exceeds the batch_size 
-            end = end + batch_size
+            end = min(start + batch_size, len(subwords))
 
         length = end - start
         batch = [tok.cls_token] + subwords[start:end] + [tok.sep_token]
