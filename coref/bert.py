@@ -47,7 +47,7 @@ def get_subwords_batches(doc: Doc,
                 end -= 1
             
         # ritwik added this
-        if start == end: # this means that the sentence on which start is standing is so long that it exceeds the batch_size 
+        if start >= end: # this means that the sentence on which start is standing is so long that it exceeds the batch_size 
             end = end + batch_size
 
         length = end - start
