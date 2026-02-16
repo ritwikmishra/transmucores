@@ -9,6 +9,10 @@ Human annotated coreference resolution dataset in Hindi by Mujadia et al. (2016)
 
 CoNLL formatted files of the combined dataset is available [here](https://drive.google.com/file/d/1Jla-sg9sBoP58u6cC2BZ2HEme4AsQ1Ez/view?usp=sharing).
 
+## License
+
+The licenses of source data resources (OntoNotes, LitBank, and Mujadia et al. (2016) paper) are applied to their derived resources used in this paper.
+
 ## Running Coreference Resolution 
 
 ### Installation
