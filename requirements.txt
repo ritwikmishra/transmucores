@@ -40,7 +40,7 @@ nvidia-nvjitlink-cu12==12.2.140
 nvidia-nvtx-cu12==12.1.105
 packaging==23.2
 pandas==2.1.1
-Pillow==10.0.1
+Pillow==12.2.0
 protobuf==4.24.4
 psutil==5.9.8
 pyparsing==3.1.1
